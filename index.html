@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>PRACTICA 10: CITA
+    </title>
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body leftmargin=40>
+    <script src="script.js"></script>
+    <font face="Arial" size="1">
+
+        <h1>Formulario de cita</h1>
+
+        <form action="trianaijb06@gmail.html" method="post">
+            Si desea concertar una cita de consulta con el Dr. Xavier, complete este formulario de cita y nos pondremos
+            en contacto con usted lo antes posible.
+            <hr color="GRAY">
+            <table cellpadding="10">
+                <tr>
+                    <td colspan="1">
+                        Día de la cita:</td>
+                    <td>
+                        <input type="date" id="meeting-date" name="meeting-date" min="2026-09-07" max="2026-12-31">
+                    </td>
+
+
+                <tr>
+                    <td>
+                        Hora de la cita:</td>
+                    <td>
+                        <input type="time" id="meeting-time" name="meeting-time" value="07:00" min="07:00" max="23:59">
+                    </td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+                        Nombre:</td>
+                    <td>
+                        <input type="text" name="nombre" value="Nombre" size="30">
+                    </td>
+                    <td><input type="text" name="apellido" value="Apellido" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Dirección:</td>
+                    <td colspan="2">
+                        <input type="text" name="direccion" value="Dirección" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Ciudad:</td>
+                    <td>
+                        <input type="text" name="ciudad" value="Dirección 2" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" name="ciudad" value="Ciudad" size="30"></td>
+                    <td><input type="text" name="region" value="Region" size="30"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" name="cp" value="Código Postal" size="30"></td>
+                    <td><select name="pais">
+                            <option>País
+                            <option>Mexico
+                            <option>Estados Unidos
+                            <option>Canada
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento</td>
+                    <td><input type="date" name="fecha-nacimiento" min="1900-01-01" max="2026-09-18"></td>
+                </tr>
+                <tr>
+                    <TD> <input type="submit" value="Enviar"></TD>
+                    <TD><input type="reset" value="Limpiar"></TD>
+                </tr>
+                <br>
+
+                <br>
+
+            </table>
+    </font>
+
+</html>
